@@ -1,0 +1,7 @@
+com\demoblaze\models\DatosCompra.class
+com\demoblaze\tasks\VisualizarCarrito.class
+com\demoblaze\tasks\FinalizarCompra.class
+com\demoblaze\userinterfaces\HomePage.class
+com\demoblaze\CompraTest.class
+com\demoblaze\userinterfaces\PaginaDemoblaze.class
+com\demoblaze\tasks\AgregarProducto.class
