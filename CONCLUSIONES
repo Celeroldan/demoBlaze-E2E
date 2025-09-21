@@ -1,0 +1,10 @@
+- Automatización funcional exitosa
+Se implementó un flujo completo de compra en el sitio DemoBlaze, simulando la interacción de un usuario real: selección de productos, visualización del carrito y finalización de la compra.
+- Uso de Serenity BDD con Screenplay Pattern
+Se aplicó el patrón Screenplay para estructurar tareas (AgregarProducto, FinalizarCompra), preguntas (CantidadProductos), y elementos de interfaz (PaginaDemoblaze) de forma modular y reutilizable.
+- Resolución de errores críticos
+Se solucionaron problemas de compilación relacionados con @DefaultUrl, incompatibilidades entre versiones de Serenity, y errores de sincronización con elementos dinámicos de la página. Esto fortaleció la capacidad de diagnóstico y adaptación del proyecto.
+- Generación de reportes detallados
+Serenity generó reportes HTML con evidencia visual paso a paso, lo que facilita la trazabilidad, documentación y presentación del flujo automatizado.
+- Reproducibilidad garantizada
+El proyecto fue estructurado con dependencias claras en pom.xml, instrucciones en README.md, y evidencia en target/site/serenity/index.html, permitiendo que cualquier persona pueda clonar el repositorio y ejecutar el test sin problemas.
