@@ -1,0 +1,22 @@
+La automatización desarrollada permitió validar exitosamente un flujo correspondiente al proceso de compra dentro de la pagina DemoBlaze mediante una prueba End to End.
+El escenario cubre desde la navegación inicial hasta la confirmación final de compra, loq ue garantiza que las funcionalidades principales del flujo operen correctamente.
+******************************************
+***Aspectos técnicos destacados
+******************************************
+Durante la implementación se trabajó principalmente sobre:
+- configuración de entorno,
+- integración entre Serenity, Selenium y Cucumber,
+- sincronización de elementos dinámicos,
+- manejo de alertas,
+- y estabilidad de ejecución.
+Uno de los principales desafíos fue estabilizar la automatización debido al comportamiento dinámico de algunos componentes de la página, especialmente el carrusel que no permitia ver el acceso al carrito y las alertas del sitio que se capturaban antes de que aparezcan.
+La solución aplicada mediante waits explícitos y ejecución JavaScript permitió mejorar considerablemente la confiabilidad de la prueba.
+
+******************************************
+Resultado obtenido
+******************************************
+El flujo automatizado logró ejecutarse correctamente validando:
+selección de productos,
+interacción con carrito,
+proceso de compra,
+y validación final del mensaje de confirmación.
